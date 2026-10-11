@@ -1,0 +1,49 @@
+# Real server configuration: may contain real networks and names.
+# Only the *.example files are versioned.
+chrony.conf
+chrony.keys
+smb.conf
+**/chrony.conf
+**/smb.conf
+
+# Exports from the real environment: GPO backups and reports, logs, captures
+GPO-*/
+gpo-backup/
+*.pol
+gpreport*.xml
+gpreport*.html
+Backup.xml
+manifest.xml
+bkupInfo.xml
+*.evtx
+*.pcap
+*.pcapng
+*.log
+screenshots/
+capturas/
+
+# Samba / AD data and secrets of any kind
+*.ldb
+*.tdb
+*.ldif
+*.keytab
+private/
+*.key
+*.pem
+*.pfx
+*.token
+.env
+.env.*
+secrets/
+
+# Local working drafts (not published)
+draft/
+
+# Backups and editor files
+*.bak
+*.bak-*
+*~
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

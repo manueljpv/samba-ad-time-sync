@@ -1,0 +1,23 @@
+# chrony.conf.example
+#
+# These lines are APPENDED to the end of the existing /etc/chrony.conf.
+# Do not replace the file, and do not paste these lines into a terminal:
+# they are file content, not commands. Back up the original first:
+#   cp -a /etc/chrony.conf /etc/chrony.conf.bak-YYYYMMDD
+#
+# All values are fictitious (ranges reserved for documentation, RFC 5737).
+# Replace them with the values of your own environment.
+
+# Time server for the example.local domain
+
+# Networks allowed to query this server. List only networks that have
+# domain machines.
+allow 192.0.2.0/24
+allow 198.51.100.0/24
+allow 203.0.113.0/24
+
+# Samba signing socket (MS-SNTP). The path depends on how Samba was installed.
+# Confirm it with:
+#   samba -b | grep -i NTP_SIGND_SOCKET_DIR
+# The chrony user needs access to this directory (group chrony, mode 750).
+ntpsigndsocket /usr/local/samba/var/lib/ntp_signd
