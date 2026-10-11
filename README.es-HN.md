@@ -127,4 +127,4 @@ Mejoras previstas y lecciones del proyecto: [ROADMAP.es-HN.md](ROADMAP.es-HN.md)
 
 ## Licencia
 
-CC BY-SA 4.0. Vea el archivo [LICENSE](LICENSE). Copyright (C) 2026 Manuel Pérez.
+GPL-3.0. Vea el archivo [LICENSE](LICENSE). Copyright (C) 2026 Manuel Pérez.

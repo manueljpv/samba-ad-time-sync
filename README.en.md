@@ -127,4 +127,4 @@ Planned improvements and lessons from the project: [ROADMAP.en.md](ROADMAP.en.md
 
 ## License
 
-CC BY-SA 4.0. See the [LICENSE](LICENSE) file. Copyright (C) 2026 Manuel Pérez.
+GPL-3.0. See the [LICENSE](LICENSE) file. Copyright (C) 2026 Manuel Pérez.
